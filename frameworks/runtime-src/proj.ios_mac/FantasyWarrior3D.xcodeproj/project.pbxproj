@@ -165,6 +165,58 @@
 		50D7C96C17EBBEDF005D0B91 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7C96B17EBBEDF005D0B91 /* OpenGL.framework */; };
 		50D7C96E17EBBEE6005D0B91 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7C96D17EBBEE6005D0B91 /* AppKit.framework */; };
 		50D7C97017EBBEEC005D0B91 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7C96F17EBBEEC005D0B91 /* IOKit.framework */; };
+		85A654BC1A47FE1700ACE24D /* BillBoardLable.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654971A47FE1700ACE24D /* BillBoardLable.lua */; };
+		85A654BD1A47FE1700ACE24D /* BillBoardLable.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654971A47FE1700ACE24D /* BillBoardLable.lua */; };
+		85A654BE1A47FE1700ACE24D /* BillboardParticleSystem.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654981A47FE1700ACE24D /* BillboardParticleSystem.lua */; };
+		85A654BF1A47FE1700ACE24D /* BillboardParticleSystem.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654981A47FE1700ACE24D /* BillboardParticleSystem.lua */; };
+		85A654C01A47FE1700ACE24D /* DrawNode3D.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654991A47FE1700ACE24D /* DrawNode3D.lua */; };
+		85A654C11A47FE1700ACE24D /* DrawNode3D.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654991A47FE1700ACE24D /* DrawNode3D.lua */; };
+		85A654C21A47FE1700ACE24D /* Effect.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A6549A1A47FE1700ACE24D /* Effect.lua */; };
+		85A654C31A47FE1700ACE24D /* Effect.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A6549A1A47FE1700ACE24D /* Effect.lua */; };
+		85A654C41A47FE1700ACE24D /* Effect3D.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A6549B1A47FE1700ACE24D /* Effect3D.lua */; };
+		85A654C51A47FE1700ACE24D /* Effect3D.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A6549B1A47FE1700ACE24D /* Effect3D.lua */; };
+		85A654C61A47FE1700ACE24D /* Effect3DOutline.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A6549C1A47FE1700ACE24D /* Effect3DOutline.lua */; };
+		85A654C71A47FE1700ACE24D /* Effect3DOutline.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A6549C1A47FE1700ACE24D /* Effect3DOutline.lua */; };
+		85A654C81A47FE1700ACE24D /* EffectNormalMapped.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A6549D1A47FE1700ACE24D /* EffectNormalMapped.lua */; };
+		85A654C91A47FE1700ACE24D /* EffectNormalMapped.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A6549D1A47FE1700ACE24D /* EffectNormalMapped.lua */; };
+		85A654CA1A47FE1700ACE24D /* EffectSprite.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A6549E1A47FE1700ACE24D /* EffectSprite.lua */; };
+		85A654CB1A47FE1700ACE24D /* EffectSprite.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A6549E1A47FE1700ACE24D /* EffectSprite.lua */; };
+		85A654CC1A47FE1700ACE24D /* EffectSprite3D.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A6549F1A47FE1700ACE24D /* EffectSprite3D.lua */; };
+		85A654CD1A47FE1700ACE24D /* EffectSprite3D.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A6549F1A47FE1700ACE24D /* EffectSprite3D.lua */; };
+		85A654CE1A47FE1700ACE24D /* GreyShader.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654A01A47FE1700ACE24D /* GreyShader.lua */; };
+		85A654CF1A47FE1700ACE24D /* GreyShader.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654A01A47FE1700ACE24D /* GreyShader.lua */; };
+		85A654D01A47FE1700ACE24D /* JumpBy3D.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654A11A47FE1700ACE24D /* JumpBy3D.lua */; };
+		85A654D11A47FE1700ACE24D /* JumpBy3D.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654A11A47FE1700ACE24D /* JumpBy3D.lua */; };
+		85A654D21A47FE1700ACE24D /* JumpTo3D.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654A21A47FE1700ACE24D /* JumpTo3D.lua */; };
+		85A654D31A47FE1700ACE24D /* JumpTo3D.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654A21A47FE1700ACE24D /* JumpTo3D.lua */; };
+		85A654D41A47FE1700ACE24D /* lua_cocos2dx_custom_api.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654A31A47FE1700ACE24D /* lua_cocos2dx_custom_api.lua */; };
+		85A654D51A47FE1700ACE24D /* lua_cocos2dx_custom_api.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654A31A47FE1700ACE24D /* lua_cocos2dx_custom_api.lua */; };
+		85A654D61A47FE1700ACE24D /* Sequence3D.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654A41A47FE1700ACE24D /* Sequence3D.lua */; };
+		85A654D71A47FE1700ACE24D /* Sequence3D.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654A41A47FE1700ACE24D /* Sequence3D.lua */; };
+		85A654D81A47FE1700ACE24D /* Water.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654A51A47FE1700ACE24D /* Water.lua */; };
+		85A654D91A47FE1700ACE24D /* Water.lua in Resources */ = {isa = PBXBuildFile; fileRef = 85A654A51A47FE1700ACE24D /* Water.lua */; };
+		85A654DA1A47FE1700ACE24D /* BillBoardLable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654A61A47FE1700ACE24D /* BillBoardLable.cpp */; };
+		85A654DB1A47FE1700ACE24D /* BillBoardLable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654A61A47FE1700ACE24D /* BillBoardLable.cpp */; };
+		85A654DC1A47FE1700ACE24D /* BillboardParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654A81A47FE1700ACE24D /* BillboardParticleSystem.cpp */; };
+		85A654DD1A47FE1700ACE24D /* BillboardParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654A81A47FE1700ACE24D /* BillboardParticleSystem.cpp */; };
+		85A654DE1A47FE1700ACE24D /* CCSequence3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654AA1A47FE1700ACE24D /* CCSequence3D.cpp */; };
+		85A654DF1A47FE1700ACE24D /* CCSequence3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654AA1A47FE1700ACE24D /* CCSequence3D.cpp */; };
+		85A654E01A47FE1700ACE24D /* DrawNode3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654AC1A47FE1700ACE24D /* DrawNode3D.cpp */; };
+		85A654E11A47FE1700ACE24D /* DrawNode3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654AC1A47FE1700ACE24D /* DrawNode3D.cpp */; };
+		85A654E21A47FE1700ACE24D /* EffectSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654AE1A47FE1700ACE24D /* EffectSprite.cpp */; };
+		85A654E31A47FE1700ACE24D /* EffectSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654AE1A47FE1700ACE24D /* EffectSprite.cpp */; };
+		85A654E41A47FE1700ACE24D /* EffectSprite3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654B01A47FE1700ACE24D /* EffectSprite3D.cpp */; };
+		85A654E51A47FE1700ACE24D /* EffectSprite3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654B01A47FE1700ACE24D /* EffectSprite3D.cpp */; };
+		85A654E61A47FE1700ACE24D /* GreyShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654B21A47FE1700ACE24D /* GreyShader.cpp */; };
+		85A654E71A47FE1700ACE24D /* GreyShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654B21A47FE1700ACE24D /* GreyShader.cpp */; };
+		85A654E81A47FE1700ACE24D /* JumpBy3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654B41A47FE1700ACE24D /* JumpBy3D.cpp */; };
+		85A654E91A47FE1700ACE24D /* JumpBy3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654B41A47FE1700ACE24D /* JumpBy3D.cpp */; };
+		85A654EA1A47FE1700ACE24D /* JumpTo3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654B61A47FE1700ACE24D /* JumpTo3D.cpp */; };
+		85A654EB1A47FE1700ACE24D /* JumpTo3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654B61A47FE1700ACE24D /* JumpTo3D.cpp */; };
+		85A654EC1A47FE1700ACE24D /* lua_cocos2dx_custom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654B81A47FE1700ACE24D /* lua_cocos2dx_custom.cpp */; };
+		85A654ED1A47FE1700ACE24D /* lua_cocos2dx_custom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654B81A47FE1700ACE24D /* lua_cocos2dx_custom.cpp */; };
+		85A654EE1A47FE1700ACE24D /* Water.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654BA1A47FE1700ACE24D /* Water.cpp */; };
+		85A654EF1A47FE1700ACE24D /* Water.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A654BA1A47FE1700ACE24D /* Water.cpp */; };
 		C00FD4921938512100C6382D /* Landscape_png.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C00FD48A1938512100C6382D /* Landscape_png.cpp */; };
 		C00FD4931938512100C6382D /* Landscape_png.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C00FD48A1938512100C6382D /* Landscape_png.cpp */; };
 		C00FD4941938512100C6382D /* PlayDisable_png.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C00FD48B1938512100C6382D /* PlayDisable_png.cpp */; };
@@ -387,6 +439,43 @@
 		50D7C96B17EBBEDF005D0B91 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		50D7C96D17EBBEE6005D0B91 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		50D7C96F17EBBEEC005D0B91 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		85A654971A47FE1700ACE24D /* BillBoardLable.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BillBoardLable.lua; sourceTree = "<group>"; };
+		85A654981A47FE1700ACE24D /* BillboardParticleSystem.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BillboardParticleSystem.lua; sourceTree = "<group>"; };
+		85A654991A47FE1700ACE24D /* DrawNode3D.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DrawNode3D.lua; sourceTree = "<group>"; };
+		85A6549A1A47FE1700ACE24D /* Effect.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Effect.lua; sourceTree = "<group>"; };
+		85A6549B1A47FE1700ACE24D /* Effect3D.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Effect3D.lua; sourceTree = "<group>"; };
+		85A6549C1A47FE1700ACE24D /* Effect3DOutline.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Effect3DOutline.lua; sourceTree = "<group>"; };
+		85A6549D1A47FE1700ACE24D /* EffectNormalMapped.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EffectNormalMapped.lua; sourceTree = "<group>"; };
+		85A6549E1A47FE1700ACE24D /* EffectSprite.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EffectSprite.lua; sourceTree = "<group>"; };
+		85A6549F1A47FE1700ACE24D /* EffectSprite3D.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EffectSprite3D.lua; sourceTree = "<group>"; };
+		85A654A01A47FE1700ACE24D /* GreyShader.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GreyShader.lua; sourceTree = "<group>"; };
+		85A654A11A47FE1700ACE24D /* JumpBy3D.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JumpBy3D.lua; sourceTree = "<group>"; };
+		85A654A21A47FE1700ACE24D /* JumpTo3D.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JumpTo3D.lua; sourceTree = "<group>"; };
+		85A654A31A47FE1700ACE24D /* lua_cocos2dx_custom_api.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lua_cocos2dx_custom_api.lua; sourceTree = "<group>"; };
+		85A654A41A47FE1700ACE24D /* Sequence3D.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sequence3D.lua; sourceTree = "<group>"; };
+		85A654A51A47FE1700ACE24D /* Water.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Water.lua; sourceTree = "<group>"; };
+		85A654A61A47FE1700ACE24D /* BillBoardLable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BillBoardLable.cpp; sourceTree = "<group>"; };
+		85A654A71A47FE1700ACE24D /* BillBoardLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillBoardLable.h; sourceTree = "<group>"; };
+		85A654A81A47FE1700ACE24D /* BillboardParticleSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BillboardParticleSystem.cpp; sourceTree = "<group>"; };
+		85A654A91A47FE1700ACE24D /* BillboardParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillboardParticleSystem.h; sourceTree = "<group>"; };
+		85A654AA1A47FE1700ACE24D /* CCSequence3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSequence3D.cpp; sourceTree = "<group>"; };
+		85A654AB1A47FE1700ACE24D /* CCSequence3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSequence3D.h; sourceTree = "<group>"; };
+		85A654AC1A47FE1700ACE24D /* DrawNode3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawNode3D.cpp; sourceTree = "<group>"; };
+		85A654AD1A47FE1700ACE24D /* DrawNode3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawNode3D.h; sourceTree = "<group>"; };
+		85A654AE1A47FE1700ACE24D /* EffectSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EffectSprite.cpp; sourceTree = "<group>"; };
+		85A654AF1A47FE1700ACE24D /* EffectSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectSprite.h; sourceTree = "<group>"; };
+		85A654B01A47FE1700ACE24D /* EffectSprite3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EffectSprite3D.cpp; sourceTree = "<group>"; };
+		85A654B11A47FE1700ACE24D /* EffectSprite3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectSprite3D.h; sourceTree = "<group>"; };
+		85A654B21A47FE1700ACE24D /* GreyShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GreyShader.cpp; sourceTree = "<group>"; };
+		85A654B31A47FE1700ACE24D /* GreyShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreyShader.h; sourceTree = "<group>"; };
+		85A654B41A47FE1700ACE24D /* JumpBy3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpBy3D.cpp; sourceTree = "<group>"; };
+		85A654B51A47FE1700ACE24D /* JumpBy3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpBy3D.h; sourceTree = "<group>"; };
+		85A654B61A47FE1700ACE24D /* JumpTo3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpTo3D.cpp; sourceTree = "<group>"; };
+		85A654B71A47FE1700ACE24D /* JumpTo3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpTo3D.h; sourceTree = "<group>"; };
+		85A654B81A47FE1700ACE24D /* lua_cocos2dx_custom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_cocos2dx_custom.cpp; sourceTree = "<group>"; };
+		85A654B91A47FE1700ACE24D /* lua_cocos2dx_custom.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lua_cocos2dx_custom.hpp; sourceTree = "<group>"; };
+		85A654BA1A47FE1700ACE24D /* Water.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Water.cpp; sourceTree = "<group>"; };
+		85A654BB1A47FE1700ACE24D /* Water.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Water.h; sourceTree = "<group>"; };
 		C00FD48A1938512100C6382D /* Landscape_png.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Landscape_png.cpp; sourceTree = "<group>"; };
 		C00FD48B1938512100C6382D /* PlayDisable_png.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayDisable_png.cpp; sourceTree = "<group>"; };
 		C00FD48C1938512100C6382D /* PlayEnable_png.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayEnable_png.cpp; sourceTree = "<group>"; };
@@ -656,6 +745,59 @@
 			name = Icons;
 			sourceTree = "<group>";
 		};
+		85A654951A47FE1700ACE24D /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				85A654961A47FE1700ACE24D /* api */,
+				85A654A61A47FE1700ACE24D /* BillBoardLable.cpp */,
+				85A654A71A47FE1700ACE24D /* BillBoardLable.h */,
+				85A654A81A47FE1700ACE24D /* BillboardParticleSystem.cpp */,
+				85A654A91A47FE1700ACE24D /* BillboardParticleSystem.h */,
+				85A654AA1A47FE1700ACE24D /* CCSequence3D.cpp */,
+				85A654AB1A47FE1700ACE24D /* CCSequence3D.h */,
+				85A654AC1A47FE1700ACE24D /* DrawNode3D.cpp */,
+				85A654AD1A47FE1700ACE24D /* DrawNode3D.h */,
+				85A654AE1A47FE1700ACE24D /* EffectSprite.cpp */,
+				85A654AF1A47FE1700ACE24D /* EffectSprite.h */,
+				85A654B01A47FE1700ACE24D /* EffectSprite3D.cpp */,
+				85A654B11A47FE1700ACE24D /* EffectSprite3D.h */,
+				85A654B21A47FE1700ACE24D /* GreyShader.cpp */,
+				85A654B31A47FE1700ACE24D /* GreyShader.h */,
+				85A654B41A47FE1700ACE24D /* JumpBy3D.cpp */,
+				85A654B51A47FE1700ACE24D /* JumpBy3D.h */,
+				85A654B61A47FE1700ACE24D /* JumpTo3D.cpp */,
+				85A654B71A47FE1700ACE24D /* JumpTo3D.h */,
+				85A654B81A47FE1700ACE24D /* lua_cocos2dx_custom.cpp */,
+				85A654B91A47FE1700ACE24D /* lua_cocos2dx_custom.hpp */,
+				85A654BA1A47FE1700ACE24D /* Water.cpp */,
+				85A654BB1A47FE1700ACE24D /* Water.h */,
+			);
+			name = custom;
+			path = ../Classes/custom;
+			sourceTree = "<group>";
+		};
+		85A654961A47FE1700ACE24D /* api */ = {
+			isa = PBXGroup;
+			children = (
+				85A654971A47FE1700ACE24D /* BillBoardLable.lua */,
+				85A654981A47FE1700ACE24D /* BillboardParticleSystem.lua */,
+				85A654991A47FE1700ACE24D /* DrawNode3D.lua */,
+				85A6549A1A47FE1700ACE24D /* Effect.lua */,
+				85A6549B1A47FE1700ACE24D /* Effect3D.lua */,
+				85A6549C1A47FE1700ACE24D /* Effect3DOutline.lua */,
+				85A6549D1A47FE1700ACE24D /* EffectNormalMapped.lua */,
+				85A6549E1A47FE1700ACE24D /* EffectSprite.lua */,
+				85A6549F1A47FE1700ACE24D /* EffectSprite3D.lua */,
+				85A654A01A47FE1700ACE24D /* GreyShader.lua */,
+				85A654A11A47FE1700ACE24D /* JumpBy3D.lua */,
+				85A654A21A47FE1700ACE24D /* JumpTo3D.lua */,
+				85A654A31A47FE1700ACE24D /* lua_cocos2dx_custom_api.lua */,
+				85A654A41A47FE1700ACE24D /* Sequence3D.lua */,
+				85A654A51A47FE1700ACE24D /* Water.lua */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
 		C00FD4891938512100C6382D /* runtime */ = {
 			isa = PBXGroup;
 			children = (
@@ -739,6 +881,7 @@
 		F293BB7C15EB830F00256477 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				85A654951A47FE1700ACE24D /* custom */,
 				15427CE2198F237300DC375D /* lua_module_register.h */,
 				C00FD4891938512100C6382D /* runtime */,
 				C033B51A191B337200D06937 /* VisibleRect.cpp */,
@@ -884,12 +1027,16 @@
 			files = (
 				152A3469199CE5B9004B68DC /* DeprecatedExtensionClass.lua in Resources */,
 				152A345F199CE5A7004B68DC /* DeprecatedCocoStudioClass.lua in Resources */,
+				85A654D51A47FE1700ACE24D /* lua_cocos2dx_custom_api.lua in Resources */,
 				15AA7D5F199B51F000725633 /* smtp.lua in Resources */,
+				85A654C31A47FE1700ACE24D /* Effect.lua in Resources */,
+				85A654D11A47FE1700ACE24D /* JumpBy3D.lua in Resources */,
 				15AA7D63199B51F000725633 /* tp.lua in Resources */,
 				15AA7D5D199B51F000725633 /* mime.lua in Resources */,
 				15AA9635199B525400725633 /* DeprecatedNetworkEnum.lua in Resources */,
 				152A346B199CE5B9004B68DC /* DeprecatedExtensionEnum.lua in Resources */,
 				152A3475199CE5CE004B68DC /* DeprecatedUIEnum.lua in Resources */,
+				85A654BD1A47FE1700ACE24D /* BillBoardLable.lua in Resources */,
 				152A3435199CE585004B68DC /* DeprecatedCocosBuilderClass.lua in Resources */,
 				C03781BA18BF655400FE4F13 /* res in Resources */,
 				15D1FE131998714100302043 /* OpenglConstants.lua in Resources */,
@@ -899,7 +1046,9 @@
 				C07828F918B4D72E00BD2287 /* MainMenu.xib in Resources */,
 				152A345D199CE5A7004B68DC /* CocoStudio.lua in Resources */,
 				15D1FE0D1998714100302043 /* luaj.lua in Resources */,
+				85A654D31A47FE1700ACE24D /* JumpTo3D.lua in Resources */,
 				15AA7D65199B51F000725633 /* url.lua in Resources */,
+				85A654BF1A47FE1700ACE24D /* BillboardParticleSystem.lua in Resources */,
 				15AA7D5B199B51F000725633 /* mbox.lua in Resources */,
 				15D1FE051998714100302043 /* DeprecatedOpenglEnum.lua in Resources */,
 				152A3479199CE5CE004B68DC /* experimentalUIConstants.lua in Resources */,
@@ -907,11 +1056,14 @@
 				152A3463199CE5A7004B68DC /* StudioConstants.lua in Resources */,
 				15D1FE031998714100302043 /* DeprecatedCocos2dFunc.lua in Resources */,
 				15AA7D59199B51F000725633 /* ltn12.lua in Resources */,
+				85A654CD1A47FE1700ACE24D /* EffectSprite3D.lua in Resources */,
 				15D1FDFF1998714100302043 /* DeprecatedCocos2dClass.lua in Resources */,
 				15AA7D53199B51F000725633 /* ftp.lua in Resources */,
 				152A346D199CE5B9004B68DC /* DeprecatedExtensionFunc.lua in Resources */,
 				15D1FE1C1998715500302043 /* DeprecatedCocosDenshionFunc.lua in Resources */,
 				15D1FDF91998714100302043 /* bitExtend.lua in Resources */,
+				85A654C51A47FE1700ACE24D /* Effect3D.lua in Resources */,
+				85A654C91A47FE1700ACE24D /* EffectNormalMapped.lua in Resources */,
 				15D1FE011998714100302043 /* DeprecatedCocos2dEnum.lua in Resources */,
 				152A3461199CE5A7004B68DC /* DeprecatedCocoStudioFunc.lua in Resources */,
 				152A3477199CE5CE004B68DC /* DeprecatedUIFunc.lua in Resources */,
@@ -919,16 +1071,22 @@
 				15AA9639199B525400725633 /* NetworkConstants.lua in Resources */,
 				15D1FE091998714100302043 /* extern.lua in Resources */,
 				15AA7D61199B51F000725633 /* socket.lua in Resources */,
+				85A654D71A47FE1700ACE24D /* Sequence3D.lua in Resources */,
+				85A654D91A47FE1700ACE24D /* Water.lua in Resources */,
+				85A654C11A47FE1700ACE24D /* DrawNode3D.lua in Resources */,
 				15AA9637199B525400725633 /* DeprecatedNetworkFunc.lua in Resources */,
 				15D1FE1A1998715500302043 /* DeprecatedCocosDenshionClass.lua in Resources */,
 				C05D1C131923449100B808A4 /* config.json in Resources */,
 				15AA9633199B525400725633 /* DeprecatedNetworkClass.lua in Resources */,
 				152A346F199CE5B9004B68DC /* ExtensionConstants.lua in Resources */,
+				85A654CB1A47FE1700ACE24D /* EffectSprite.lua in Resources */,
+				85A654C71A47FE1700ACE24D /* Effect3DOutline.lua in Resources */,
 				15D1FE0F1998714100302043 /* luaoc.lua in Resources */,
 				15AA7D57199B51F000725633 /* http.lua in Resources */,
 				152A347B199CE5CE004B68DC /* GuiConstants.lua in Resources */,
 				15D1FDFD1998714100302043 /* Cocos2dConstants.lua in Resources */,
 				15D1FDFB1998714100302043 /* Cocos2d.lua in Resources */,
+				85A654CF1A47FE1700ACE24D /* GreyShader.lua in Resources */,
 				15D1FE181998715500302043 /* AudioEngine.lua in Resources */,
 				15AA7D55199B51F000725633 /* headers.lua in Resources */,
 				152A3433199CE585004B68DC /* CCBReaderLoad.lua in Resources */,
@@ -942,6 +1100,9 @@
 				152A345C199CE5A7004B68DC /* CocoStudio.lua in Resources */,
 				15D1FDF81998714100302043 /* bitExtend.lua in Resources */,
 				15AA7D52199B51F000725633 /* ftp.lua in Resources */,
+				85A654C41A47FE1700ACE24D /* Effect3D.lua in Resources */,
+				85A654CC1A47FE1700ACE24D /* EffectSprite3D.lua in Resources */,
+				85A654CA1A47FE1700ACE24D /* EffectSprite.lua in Resources */,
 				15AA7D58199B51F000725633 /* ltn12.lua in Resources */,
 				15AA7D5A199B51F000725633 /* mbox.lua in Resources */,
 				15A8A4491834C64F00142BE0 /* Icon-114.png in Resources */,
@@ -954,21 +1115,25 @@
 				15D1FDFE1998714100302043 /* DeprecatedCocos2dClass.lua in Resources */,
 				5091733617ECE17A00D62437 /* Icon-29.png in Resources */,
 				15AA7D60199B51F000725633 /* socket.lua in Resources */,
+				85A654C81A47FE1700ACE24D /* EffectNormalMapped.lua in Resources */,
 				15D1FE061998714100302043 /* DrawPrimitives.lua in Resources */,
 				15AA7D56199B51F000725633 /* http.lua in Resources */,
 				15D1FE191998715500302043 /* DeprecatedCocosDenshionClass.lua in Resources */,
 				152A3476199CE5CE004B68DC /* DeprecatedUIFunc.lua in Resources */,
+				85A654D01A47FE1700ACE24D /* JumpBy3D.lua in Resources */,
 				15D1FDFA1998714100302043 /* Cocos2d.lua in Resources */,
 				5023811917EBBCAC00990C9B /* Default-568h@2x.png in Resources */,
 				15D1FE0C1998714100302043 /* luaj.lua in Resources */,
 				5091733917ECE17A00D62437 /* Icon-58.png in Resources */,
 				15D1FE121998714100302043 /* OpenglConstants.lua in Resources */,
+				85A654CE1A47FE1700ACE24D /* GreyShader.lua in Resources */,
 				152A3474199CE5CE004B68DC /* DeprecatedUIEnum.lua in Resources */,
 				15D1FE021998714100302043 /* DeprecatedCocos2dFunc.lua in Resources */,
 				5023811F17EBBCAC00990C9B /* Icon-152.png in Resources */,
 				5023812017EBBCAC00990C9B /* Icon-57.png in Resources */,
 				15D1FE001998714100302043 /* DeprecatedCocos2dEnum.lua in Resources */,
 				C03781B918BF655400FE4F13 /* res in Resources */,
+				85A654D61A47FE1700ACE24D /* Sequence3D.lua in Resources */,
 				15AA9634199B525400725633 /* DeprecatedNetworkEnum.lua in Resources */,
 				15D1FE1B1998715500302043 /* DeprecatedCocosDenshionFunc.lua in Resources */,
 				5023812217EBBCAC00990C9B /* Icon-76.png in Resources */,
@@ -979,6 +1144,7 @@
 				152A3462199CE5A7004B68DC /* StudioConstants.lua in Resources */,
 				15D1FE041998714100302043 /* DeprecatedOpenglEnum.lua in Resources */,
 				152A3468199CE5B9004B68DC /* DeprecatedExtensionClass.lua in Resources */,
+				85A654D81A47FE1700ACE24D /* Water.lua in Resources */,
 				5091733717ECE17A00D62437 /* Icon-40.png in Resources */,
 				5023811E17EBBCAC00990C9B /* Icon-144.png in Resources */,
 				5023811A17EBBCAC00990C9B /* Default.png in Resources */,
@@ -986,21 +1152,28 @@
 				152A3434199CE585004B68DC /* DeprecatedCocosBuilderClass.lua in Resources */,
 				15AA9632199B525400725633 /* DeprecatedNetworkClass.lua in Resources */,
 				15D1FE171998715500302043 /* AudioEngine.lua in Resources */,
+				85A654C21A47FE1700ACE24D /* Effect.lua in Resources */,
+				85A654D21A47FE1700ACE24D /* JumpTo3D.lua in Resources */,
 				C03781BB18BF655400FE4F13 /* src in Resources */,
 				15AA9636199B525400725633 /* DeprecatedNetworkFunc.lua in Resources */,
 				5091733817ECE17A00D62437 /* Icon-50.png in Resources */,
+				85A654C01A47FE1700ACE24D /* DrawNode3D.lua in Resources */,
 				15D1FE081998714100302043 /* extern.lua in Resources */,
 				5023812117EBBCAC00990C9B /* Icon-72.png in Resources */,
 				15AA7D62199B51F000725633 /* tp.lua in Resources */,
+				85A654BC1A47FE1700ACE24D /* BillBoardLable.lua in Resources */,
 				15D1FDFC1998714100302043 /* Cocos2dConstants.lua in Resources */,
 				152A3432199CE585004B68DC /* CCBReaderLoad.lua in Resources */,
+				85A654D41A47FE1700ACE24D /* lua_cocos2dx_custom_api.lua in Resources */,
 				15AA9638199B525400725633 /* NetworkConstants.lua in Resources */,
 				15AA7D64199B51F000725633 /* url.lua in Resources */,
+				85A654C61A47FE1700ACE24D /* Effect3DOutline.lua in Resources */,
 				152A346A199CE5B9004B68DC /* DeprecatedExtensionEnum.lua in Resources */,
 				152A346C199CE5B9004B68DC /* DeprecatedExtensionFunc.lua in Resources */,
 				C05D1C121923449100B808A4 /* config.json in Resources */,
 				15D1FE0E1998714100302043 /* luaoc.lua in Resources */,
 				152A3460199CE5A7004B68DC /* DeprecatedCocoStudioFunc.lua in Resources */,
+				85A654BE1A47FE1700ACE24D /* BillboardParticleSystem.lua in Resources */,
 				152A345E199CE5A7004B68DC /* DeprecatedCocoStudioClass.lua in Resources */,
 				15D1FE101998714100302043 /* Opengl.lua in Resources */,
 			);
@@ -1034,26 +1207,37 @@
 				C00FD4971938512100C6382D /* PlayEnable_png.cpp in Sources */,
 				C00FD4951938512100C6382D /* PlayDisable_png.cpp in Sources */,
 				C033B51D191B337200D06937 /* VisibleRect.cpp in Sources */,
+				85A654EF1A47FE1700ACE24D /* Water.cpp in Sources */,
+				85A654DF1A47FE1700ACE24D /* CCSequence3D.cpp in Sources */,
+				85A654E31A47FE1700ACE24D /* EffectSprite.cpp in Sources */,
+				85A654E91A47FE1700ACE24D /* JumpBy3D.cpp in Sources */,
 				C00FD49D1938512100C6382D /* Shine_png.cpp in Sources */,
 				3EB515691952865D006966AA /* common.cc in Sources */,
 				15AA9649199B6D4600725633 /* lua_debugger.c in Sources */,
 				3EB515651952865D006966AA /* repeated_field.cc in Sources */,
 				3EB5156B1952865D006966AA /* once.cc in Sources */,
+				85A654E71A47FE1700ACE24D /* GreyShader.cpp in Sources */,
 				3EB5155D1952865D006966AA /* coded_stream.cc in Sources */,
 				C00FD4991938512100C6382D /* Portrait_png.cpp in Sources */,
 				C06C3797191A1D1E00617BED /* ConfigParser.cpp in Sources */,
 				3EB5156D1952865D006966AA /* stringprintf.cc in Sources */,
 				C07828F818B4D72E00BD2287 /* main.m in Sources */,
+				85A654DB1A47FE1700ACE24D /* BillBoardLable.cpp in Sources */,
 				3EB515611952865D006966AA /* zero_copy_stream_impl_lite.cc in Sources */,
 				3EB5156F1952865D006966AA /* wire_format_lite.cc in Sources */,
+				85A654EB1A47FE1700ACE24D /* JumpTo3D.cpp in Sources */,
 				3EB515631952865D006966AA /* message_lite.cc in Sources */,
 				C00FD49B1938512100C6382D /* Runtime.cpp in Sources */,
+				85A654DD1A47FE1700ACE24D /* BillboardParticleSystem.cpp in Sources */,
 				3EB515591952865D006966AA /* extension_set.cc in Sources */,
 				3EB5155B1952865D006966AA /* generated_message_util.cc in Sources */,
+				85A654E11A47FE1700ACE24D /* DrawNode3D.cpp in Sources */,
 				C0619CD81896894800872C26 /* Runtime_ios-mac.mm in Sources */,
 				3EB5152D19528284006966AA /* Protos.pb.cc in Sources */,
 				C00FD4931938512100C6382D /* Landscape_png.cpp in Sources */,
+				85A654ED1A47FE1700ACE24D /* lua_cocos2dx_custom.cpp in Sources */,
 				3EB5155F1952865D006966AA /* zero_copy_stream.cc in Sources */,
+				85A654E51A47FE1700ACE24D /* EffectSprite3D.cpp in Sources */,
 				3EB515671952865D006966AA /* atomicops_internals_x86_msvc.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1063,19 +1247,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				15AA9648199B6D4600725633 /* lua_debugger.c in Sources */,
+				85A654E81A47FE1700ACE24D /* JumpBy3D.cpp in Sources */,
 				3EB5156A1952865D006966AA /* once.cc in Sources */,
 				C00FD4981938512100C6382D /* Portrait_png.cpp in Sources */,
+				85A654EC1A47FE1700ACE24D /* lua_cocos2dx_custom.cpp in Sources */,
 				5023812517EBBCAC00990C9B /* RootViewController.mm in Sources */,
+				85A654E01A47FE1700ACE24D /* DrawNode3D.cpp in Sources */,
+				85A654E21A47FE1700ACE24D /* EffectSprite.cpp in Sources */,
 				C00FD4921938512100C6382D /* Landscape_png.cpp in Sources */,
 				F293BB9C15EB831F00256477 /* AppDelegate.cpp in Sources */,
 				C00FD49A1938512100C6382D /* Runtime.cpp in Sources */,
 				3EB515621952865D006966AA /* message_lite.cc in Sources */,
 				C06C3796191A1D1E00617BED /* ConfigParser.cpp in Sources */,
+				85A654E41A47FE1700ACE24D /* EffectSprite3D.cpp in Sources */,
 				3EB515601952865D006966AA /* zero_copy_stream_impl_lite.cc in Sources */,
 				C00FD4961938512100C6382D /* PlayEnable_png.cpp in Sources */,
 				3EB5152C19528284006966AA /* Protos.pb.cc in Sources */,
 				3EB515661952865D006966AA /* atomicops_internals_x86_msvc.cc in Sources */,
 				3EB515641952865D006966AA /* repeated_field.cc in Sources */,
+				85A654E61A47FE1700ACE24D /* GreyShader.cpp in Sources */,
+				85A654DC1A47FE1700ACE24D /* BillboardParticleSystem.cpp in Sources */,
+				85A654EE1A47FE1700ACE24D /* Water.cpp in Sources */,
 				C00FD4941938512100C6382D /* PlayDisable_png.cpp in Sources */,
 				C00FD49C1938512100C6382D /* Shine_png.cpp in Sources */,
 				3EB5156E1952865D006966AA /* wire_format_lite.cc in Sources */,
@@ -1088,7 +1280,10 @@
 				3EB5155E1952865D006966AA /* zero_copy_stream.cc in Sources */,
 				3EB5155C1952865D006966AA /* coded_stream.cc in Sources */,
 				C0619CD71896894800872C26 /* Runtime_ios-mac.mm in Sources */,
+				85A654DA1A47FE1700ACE24D /* BillBoardLable.cpp in Sources */,
 				5023811817EBBCAC00990C9B /* AppController.mm in Sources */,
+				85A654DE1A47FE1700ACE24D /* CCSequence3D.cpp in Sources */,
+				85A654EA1A47FE1700ACE24D /* JumpTo3D.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

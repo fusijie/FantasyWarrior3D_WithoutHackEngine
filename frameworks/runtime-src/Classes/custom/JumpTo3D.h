@@ -10,7 +10,7 @@
 #define __Jump3DTest__JumpTo3D__
 
 #include "cocos2d.h"
-#include "custom/JumpBy3D.h"
+#include "JumpBy3D.h"
 
 USING_NS_CC;
 

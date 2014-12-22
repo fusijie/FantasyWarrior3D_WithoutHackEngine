@@ -10,7 +10,7 @@
 #include "spine/lua_cocos2dx_spine_manual.hpp"
 #include "3d/lua_cocos2dx_3d_manual.h"
 #include "audioengine/lua_cocos2dx_audioengine_manual.h"
-#include "lua_cocos2dx_custom.hpp"
+#include "custom/lua_cocos2dx_custom.hpp"
 
 int lua_module_register(lua_State* L)
 {

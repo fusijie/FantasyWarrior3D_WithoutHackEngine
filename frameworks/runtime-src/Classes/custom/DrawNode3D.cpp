@@ -23,7 +23,7 @@
  ****************************************************************************/
 
 #include "DrawNode3D.h"
-#include "CCGL.h"
+#include "platform/CCGL.h"
 #include "base/CCEventType.h"
 #include "base/CCConfiguration.h"
 #include "renderer/CCCustomCommand.h"

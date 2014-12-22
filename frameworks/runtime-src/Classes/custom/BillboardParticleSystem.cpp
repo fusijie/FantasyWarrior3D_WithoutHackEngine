@@ -9,7 +9,7 @@
 #include "base/CCDirector.h"
 #include "base/CCProfiling.h"
 #include "renderer/CCTextureCache.h"
-#include "CCGL.h"
+#include "platform/CCGL.h"
 USING_NS_CC;
 BillboardParticleSystem * BillboardParticleSystem::create(const std::string& filename)
 {
