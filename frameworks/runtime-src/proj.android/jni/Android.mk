@@ -33,6 +33,17 @@ LOCAL_SRC_FILES := \
 ../../Classes/VisibleRect.cpp \
 ../../Classes/AppDelegate.cpp \
 ../../Classes/ConfigParser.cpp \
+../../Classes/custom/BillboardParticleSystem.cpp \
+../../Classes/custom/DrawNode3D.cpp \
+../../Classes/custom/EffectSprite3D.cpp \
+../../Classes/custom/JumpBy3D.cpp \
+../../Classes/custom/JumpTo3D.cpp \
+../../Classes/custom/Water.cpp \
+../../Classes/custom/EffectSprite.cpp \
+../../Classes/custom/BillBoardLable.cpp \
+../../Classes/custom/CCSequence3D.cpp \
+../../Classes/custom/GreyShader.cpp \
+../../Classes/custom/lua_cocos2dx_custom.cpp \
 hellolua/Runtime_android.cpp \
 hellolua/main.cpp
 
@@ -40,6 +51,7 @@ LOCAL_C_INCLUDES := \
 $(LOCAL_PATH)/../../Classes/protobuf-lite \
 $(LOCAL_PATH)/../../Classes/runtime \
 $(LOCAL_PATH)/../../Classes \
+$(LOCAL_PATH)/../../Classes/custom \
 $(LOCAL_PATH)/../../../cocos2d-x/external
 
 LOCAL_STATIC_LIBRARIES := cocos2d_lua_static
