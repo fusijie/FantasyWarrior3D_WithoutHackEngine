@@ -15,7 +15,7 @@ USING_NS_CC;
 
 NS_CC_BEGIN
 
-class CC_DLL JumpBy3D : public ActionInterval
+class JumpBy3D : public ActionInterval
 {
 public:
     /** creates the action */

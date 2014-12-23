@@ -34,7 +34,7 @@ USING_NS_CC;
 NS_CC_BEGIN
 
 class EffectSprite;
-class CC_DLL Effect : public Ref
+class Effect : public Ref
 {
 public:
     GLProgramState* getGLProgramState() const { return _glprogramstate; }
@@ -51,7 +51,7 @@ protected:
     EventListenerCustom* _backgroundListener;
 #endif
 };
-class CC_DLL EffectNormalMapped : public Effect
+class EffectNormalMapped : public Effect
 {
 public:
     CREATE_FUNC(EffectNormalMapped);
@@ -81,7 +81,7 @@ protected:
     EffectSprite* _sprite;
     float  _kBump;
 };
-class CC_DLL EffectSprite : public Sprite
+class EffectSprite : public Sprite
 {
 public:
     static EffectSprite *create(const std::string& filename) {

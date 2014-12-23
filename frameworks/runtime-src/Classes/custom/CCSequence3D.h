@@ -35,7 +35,7 @@ NS_CC_BEGIN
  * But it is only used to sequence Animate3D
  * The difference between Sequence and Sequence3D is that Sequence3D play animation one by one and with some overlap time. We use the overlap time to make the transition between one action to another. The comming action fades in and the previous one fades out.
  */
-class CC_DLL Sequence3D : public ActionInterval
+class Sequence3D : public ActionInterval
 {
 public:
         /** helper constructor to create an array of sequenceable actions */

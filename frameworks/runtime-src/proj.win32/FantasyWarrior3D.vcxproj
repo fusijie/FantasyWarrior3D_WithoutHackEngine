@@ -68,7 +68,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\Classes;$(ProjectDir)..\Classes\runtime;$(ProjectDir)..\Classes\protobuf-lite;$(EngineRoot)external\win32-specific\zlib\include;$(EngineRoot)cocos\scripting\lua-bindings\auto;$(EngineRoot)cocos\scripting\lua-bindings\manual;$(EngineRoot)cocos\audio\include;$(EngineRoot)external;$(EngineRoot)external\lua\lua;$(EngineRoot)external\lua\tolua;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;$(EngineRoot);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Classes;$(ProjectDir)..\Classes\custom;$(ProjectDir)..\Classes\runtime;$(ProjectDir)..\Classes\protobuf-lite;$(EngineRoot)external\win32-specific\zlib\include;$(EngineRoot)cocos\scripting\lua-bindings\auto;$(EngineRoot)cocos\scripting\lua-bindings\manual;$(EngineRoot)cocos\audio\include;$(EngineRoot)external;$(EngineRoot)external\lua\lua;$(EngineRoot)external\lua\tolua;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;$(EngineRoot);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
@@ -182,6 +182,17 @@ copy "$(ProjectDir)..\..\..\config.json" "$(LocalDebuggerWorkingDirectory)\confi
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\ConfigParser.h" />
+    <ClInclude Include="..\Classes\custom\BillBoardLable.h" />
+    <ClInclude Include="..\Classes\custom\BillboardParticleSystem.h" />
+    <ClInclude Include="..\Classes\custom\CCSequence3D.h" />
+    <ClInclude Include="..\Classes\custom\DrawNode3D.h" />
+    <ClInclude Include="..\Classes\custom\EffectSprite.h" />
+    <ClInclude Include="..\Classes\custom\EffectSprite3D.h" />
+    <ClInclude Include="..\Classes\custom\GreyShader.h" />
+    <ClInclude Include="..\Classes\custom\JumpBy3D.h" />
+    <ClInclude Include="..\Classes\custom\JumpTo3D.h" />
+    <ClInclude Include="..\Classes\custom\lua_cocos2dx_custom.hpp" />
+    <ClInclude Include="..\Classes\custom\Water.h" />
     <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\extension_set.h" />
     <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\generated_message_util.h" />
     <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\io\coded_stream.h" />
@@ -218,6 +229,17 @@ copy "$(ProjectDir)..\..\..\config.json" "$(LocalDebuggerWorkingDirectory)\confi
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\ConfigParser.cpp" />
+    <ClCompile Include="..\Classes\custom\BillBoardLable.cpp" />
+    <ClCompile Include="..\Classes\custom\BillboardParticleSystem.cpp" />
+    <ClCompile Include="..\Classes\custom\CCSequence3D.cpp" />
+    <ClCompile Include="..\Classes\custom\DrawNode3D.cpp" />
+    <ClCompile Include="..\Classes\custom\EffectSprite.cpp" />
+    <ClCompile Include="..\Classes\custom\EffectSprite3D.cpp" />
+    <ClCompile Include="..\Classes\custom\GreyShader.cpp" />
+    <ClCompile Include="..\Classes\custom\JumpBy3D.cpp" />
+    <ClCompile Include="..\Classes\custom\JumpTo3D.cpp" />
+    <ClCompile Include="..\Classes\custom\lua_cocos2dx_custom.cpp" />
+    <ClCompile Include="..\Classes\custom\Water.cpp" />
     <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\extension_set.cc" />
     <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\generated_message_util.cc" />
     <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\io\coded_stream.cc" />

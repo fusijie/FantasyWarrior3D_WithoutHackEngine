@@ -34,7 +34,7 @@ NS_CC_BEGIN
     /**
     * Inherit from Sprite, achieve BillBoard.
     */
-class CC_DLL BillBoardLable : public Label
+class BillBoardLable : public Label
 {
 public:
      enum class Mode

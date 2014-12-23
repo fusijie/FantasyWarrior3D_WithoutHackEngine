@@ -15,7 +15,7 @@ USING_NS_CC;
 
 NS_CC_BEGIN
 
-class CC_DLL GreyShader : public Ref
+class GreyShader : public Ref
 {
 public:
     static void setGreyShader(Sprite * s);

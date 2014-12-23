@@ -15,7 +15,7 @@ USING_NS_CC;
 
 NS_CC_BEGIN
 
-class CC_DLL Water : public cocos2d::Sprite
+class Water : public cocos2d::Sprite
 {
 public:
     static Water * create(const std::string& tex1,const std::string& tex2,const std::string& tex3, const cocos2d::Size& size, float hSpeed, float vSpeed, float saturation);

@@ -16,7 +16,7 @@ USING_NS_CC;
 
 NS_CC_BEGIN
 
-class CC_DLL JumpTo3D : public JumpBy3D
+class JumpTo3D : public JumpBy3D
 {
 public:
     /** creates the action */

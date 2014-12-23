@@ -38,7 +38,7 @@ typedef struct sBillboardParticle {
     } modeB;
     
 }sBillboardParticle;
-class CC_DLL BillboardParticleSystem : public Node, public TextureProtocol
+class BillboardParticleSystem : public Node, public TextureProtocol
 {
 public:
     enum class Mode
