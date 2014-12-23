@@ -1,5 +1,3 @@
-require "Cocos2d"
-require "Cocos2dConstants"
 require "Actor"
 require "Knight"
 require "Archer"

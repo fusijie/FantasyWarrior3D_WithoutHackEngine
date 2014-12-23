@@ -1,5 +1,3 @@
-require("Cocos2d")
-
 local HPCounter = class("HPCounter",function()
     return cc.Node:create()
 end)
