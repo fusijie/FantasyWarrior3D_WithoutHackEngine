@@ -16,7 +16,7 @@
 -- @param self
 -- @param #vec3_table outlineColor
 -- @param #float width
--- @param #long order
+-- @param #int order
         
 --------------------------------
 -- 

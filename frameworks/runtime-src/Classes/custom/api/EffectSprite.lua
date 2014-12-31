@@ -15,7 +15,7 @@
 -- @function [parent=#EffectSprite] addEffect 
 -- @param self
 -- @param #cc.Effect effect
--- @param #long order
+-- @param #int order
         
 --------------------------------
 -- 
