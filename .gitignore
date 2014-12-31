@@ -1,6 +1,5 @@
 runtime/
 publish/
-src/main.lua
 Thumbs.db
 *.obj
 *.exe
