@@ -357,7 +357,7 @@ void BillboardParticleSystem::draw(Renderer *renderer, const Mat4 &transform, ui
     //quad command
     if(_particleIdx > 0)
     {
-        _quadCommand.init(_globalZOrder, _texture->getName(), getGLProgramState(), _blendFunc, _quads, _particleIdx, transform, false);
+        _quadCommand.init(_globalZOrder, _texture->getName(), getGLProgramState(), _blendFunc, _quads, _particleIdx, transform);
         renderer->addCommand(&_quadCommand);
     }
     end();
