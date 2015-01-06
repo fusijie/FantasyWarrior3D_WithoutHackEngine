@@ -1,4 +1,7 @@
-runtime/
+runtime/android/
+runtime/ios/
+runtime/mac/
+runtime/win32/
 publish/
 Thumbs.db
 *.obj
