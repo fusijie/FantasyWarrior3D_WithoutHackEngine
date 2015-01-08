@@ -5,6 +5,7 @@ runtime/win32/
 publish/
 Thumbs.db
 *.obj
+!res/model/archer/arrow.obj
 *.exe
 *.pdb
 *.aps
