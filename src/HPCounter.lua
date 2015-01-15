@@ -26,9 +26,7 @@ function HPCounter:showBloodLossNum(damage,actor,attack)
         local ttfconfig = {outlineSize=7,fontSize=50,fontFilePath="fonts/britanic bold.ttf"}
         local blood = cc.Label:createWithTTF(ttfconfig,"-"..num,cc.TEXT_ALIGNMENT_CENTER,400)
         blood:enableOutline(cc.c4b(0,0,0,255))
-        blood:setRotation3D({x=90,y=0,z=0})
         blood:setScale(0.1)
-        -- blood:setRotation3D(getRandomXYZ())
         
         local targetScale = 0.6
         if num > 1000 then 
@@ -64,11 +62,9 @@ function HPCounter:showBloodLossNum(damage,actor,attack)
             local criticalAttack = cc.Sprite:createWithSpriteFrameName("hpcounter.png")
             tm = 1
             criticalAttack:runAction(getAction())
-            criticalAttack:setRotation3D({x=90,y=0,z=0})
             if actor._name == "Rat" then
                 criticalAttack:setPositionZ(G.winSize.height*0.25)
             end
-            -- actor:addEffect(criticalAttack)
             effect:addChild(criticalAttack)
             pointZ = 80
             targetScale = targetScale*2
