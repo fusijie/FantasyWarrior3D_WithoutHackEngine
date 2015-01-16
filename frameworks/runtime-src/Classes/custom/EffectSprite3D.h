@@ -44,12 +44,19 @@ public:
     virtual void setTarget(Sprite3D *sprite,Mesh* childMesh) = 0;
 protected:
     Effect3D() : _glProgramState(nullptr) {}
+    
+    void applyRenderState();
+    void restoreRenderState();
+    
     virtual ~Effect3D()
     {
         CC_SAFE_RELEASE(_glProgramState);
     }
 protected:
     GLProgramState* _glProgramState;
+    
+    bool _isCullEnabled;
+    bool _isDepthEnabled;
 };
 
 class Effect3DOutline: public Effect3D

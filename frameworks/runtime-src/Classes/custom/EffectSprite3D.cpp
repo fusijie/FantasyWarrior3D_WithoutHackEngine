@@ -36,6 +36,32 @@ enum
     IDC_RESTART
 };
 
+void Effect3D::applyRenderState()
+{
+    _isCullEnabled = glIsEnabled(GL_CULL_FACE);
+    _isDepthEnabled = glIsEnabled(GL_DEPTH_TEST);
+}
+
+void Effect3D::restoreRenderState()
+{
+    if (_isCullEnabled)
+    {
+        glEnable(GL_CULL_FACE);
+    }
+    else
+    {
+        glDisable(GL_CULL_FACE);
+    }
+    
+    if (_isDepthEnabled)
+    {
+        glEnable(GL_DEPTH_TEST);
+    }
+    else
+    {
+        glDisable(GL_DEPTH_TEST);
+    }
+}
 
 static int tuple_sort( const std::tuple<ssize_t,Effect3D*,CustomCommand> &tuple1, const std::tuple<ssize_t,Effect3D*,CustomCommand> &tuple2 )
 {
@@ -287,6 +313,8 @@ void Effect3DOutline::draw(const Mat4 &transform)
         Color4F color(_sprite->getDisplayedColor());
         color.a = _sprite->getDisplayedOpacity() / 255.0f;
         _glProgramState->setUniformVec4("u_color", Vec4(color.r, color.g, color.b, color.a));
+        
+        applyRenderState();
         glEnable(GL_CULL_FACE);
         glCullFace(GL_FRONT);
         glEnable(GL_DEPTH_TEST);
@@ -310,9 +338,12 @@ void Effect3DOutline::draw(const Mat4 &transform)
         
         glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
         glBindBuffer(GL_ARRAY_BUFFER, 0);
+        
+
         glDisable(GL_DEPTH_TEST);
         glCullFace(GL_BACK);
         //glDisable(GL_CULL_FACE);
+        restoreRenderState();
     }
 }
 
@@ -335,9 +366,10 @@ void EffectSprite3D::draw(cocos2d::Renderer *renderer, const cocos2d::Mat4 &tran
         if(std::get<0>(effect) >=0)
             break;
         CustomCommand &cc = std::get<2>(effect);
+        cc.init(_globalZOrder, transform, flags);
+        cc.setTransparent(true);
         cc.func = CC_CALLBACK_0(Effect3D::draw,std::get<1>(effect),transform);
-        cc.setTransparent(false);
-        cc.set3D(true);
+        
         renderer->addCommand(&cc);
         
     }
