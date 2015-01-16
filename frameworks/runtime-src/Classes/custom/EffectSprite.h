@@ -65,6 +65,7 @@ public:
             return normalMappedSprite;
         }
         CC_SAFE_DELETE(normalMappedSprite);
+        return nullptr;
     }
     void setPointLight(PointLight* pointLight)
     {

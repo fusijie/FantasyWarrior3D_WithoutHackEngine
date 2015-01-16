@@ -129,10 +129,13 @@ void BillBoardLable::draw(Renderer *renderer, const Mat4 &transform, uint32_t fl
 
         _billboardTransform.translate(-anchorPoint);
 
-        const Mat4 &viewMat = camWorldMat.getInversed();
+//        const Mat4 &viewMat = camWorldMat.getInversed();
         _mvTransform = transform;
         _camWorldMat = camWorldMat;
     }
+    
+    flags |= FLAGS_RENDER_AS_3D;
+    
     Label::draw(renderer,_billboardTransform,flags);
     // Don't do calculate the culling if the transform was not updated
 }
