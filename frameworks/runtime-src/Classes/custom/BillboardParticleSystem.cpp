@@ -319,7 +319,7 @@ void BillboardParticleSystem::update(float dt)
             else
             {
                 // life < 0
-                int currentIndex = p->atlasIndex;
+//                int currentIndex = p->atlasIndex;
                 if( _particleIdx != _particleCount-1 )
                 {
                     _particles[_particleIdx] = _particles[_particleCount-1];
@@ -354,10 +354,13 @@ void BillboardParticleSystem::draw(Renderer *renderer, const Mat4 &transform, ui
     billboardTransform.translate(transform.m[12],transform.m[13],transform.m[14]);
     billboardTransform.scale(scale);
     CCASSERT( _particleIdx == 0 || _particleIdx == _particleCount, "Abnormal error in particle quad");
+    
+    flags |= FLAGS_RENDER_AS_3D;
+    
     //quad command
     if(_particleIdx > 0)
     {
-        _quadCommand.init(_globalZOrder, _texture->getName(), getGLProgramState(), _blendFunc, _quads, _particleIdx, transform);
+        _quadCommand.init(_globalZOrder, _texture->getName(), getGLProgramState(), _blendFunc, _quads, _particleIdx, transform, flags);
         renderer->addCommand(&_quadCommand);
     }
     end();
@@ -426,7 +429,7 @@ bool BillboardParticleSystem::initWithDictionary(ValueMap& dictionary, const std
     bool ret = false;
     unsigned char *buffer = nullptr;
     unsigned char *deflated = nullptr;
-    Image *image = nullptr;
+//    Image *image = nullptr;
     do
     {
         int maxParticles = dictionary["maxParticles"].asInt();
