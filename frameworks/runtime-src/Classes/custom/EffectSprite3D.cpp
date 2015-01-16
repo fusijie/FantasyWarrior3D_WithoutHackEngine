@@ -326,7 +326,7 @@ void EffectSprite3D::draw(cocos2d::Renderer *renderer, const cocos2d::Mat4 &tran
     }
     else
     {
-        _command.init(_globalZOrder);
+        _command.init(_globalZOrder, transform, flags);
         _command.func = CC_CALLBACK_0(Effect3D::draw, _defaultEffect, transform);
         renderer->addCommand(&_command);
     }
@@ -336,6 +336,8 @@ void EffectSprite3D::draw(cocos2d::Renderer *renderer, const cocos2d::Mat4 &tran
             break;
         CustomCommand &cc = std::get<2>(effect);
         cc.func = CC_CALLBACK_0(Effect3D::draw,std::get<1>(effect),transform);
+        cc.setTransparent(false);
+        cc.set3D(true);
         renderer->addCommand(&cc);
         
     }
